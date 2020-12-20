@@ -23,18 +23,6 @@ const reducer = (state = defaultState, action) => {
             login: "false"
           }
         });
-    // case types.loginIn:
-    //   return Object.assign({}, Object.assign(
-    //     {}, state.user, { login: "true" }
-    //   ));
-    // case types.loginOut:
-    //   return Object.assign({}, Object.assign(
-    //     {}, state.user, { login: "false" }
-    //   ));
-    // case types.updateUserInfo:
-    //   return Object.assign({},
-    //     Object.assign({}, state.user, action.useInfo)
-    //   );
     default:
       return state;
   }
